@@ -1027,6 +1027,9 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
             });
 
             final Preference nsFollowDownload = findPreference("nsfollow_download_treatments");
+            //if follow_url.endswith(".com") {
+            //    follow_url.append("/api/v1/")
+            //}
             final Preference nsFollowUrl = findPreference("nsfollow_url");
             try {
                 nsFollowUrl.setOnPreferenceChangeListener((preference, newValue) -> {

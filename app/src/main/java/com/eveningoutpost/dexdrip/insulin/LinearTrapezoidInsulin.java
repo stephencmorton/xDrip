@@ -44,11 +44,11 @@ public class LinearTrapezoidInsulin extends Insulin {
     public double calculateActivity(double t) {
         double time = t - onset;
         if ((0 <= time) && (time < t1))
-            return concentration * time * max / t2;
+            return concentration * time * max / t1;
         else if ((t1 <= time) && (time < t2))
             return concentration * max;
         else if ((t2 <= time) && (time < t3))
-            return concentration * (time - t3) * max / (t3 - t2);
+            return concentration * (t3 - time) * max / (t3 - t2);
         else return 0;
     }
 

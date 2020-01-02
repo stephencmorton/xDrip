@@ -32,9 +32,9 @@
     <string name="title_activity_double_calibration">Dubbele Kalibratie</string>
     <string name="title_activity_calibration_override">Kalibratie Overschrijven</string>
     <string name="pref_header_cloud_storage">Cloud opslag</string>
-    <string name="prefs_auto_config_summary">Automatisch configureren met behulp van een barcode.</string>
+    <string name="prefs_auto_config_summary">Automatisch configureren met behulp van een QR code.</string>
     <string name="scan_share2_barcode">Scan Deel Barcode</string>
-    <string name="pref_share2_scan_barcode_summary">Of scan de barcode op het aandeel receiver</string>
+    <string name="pref_share2_scan_barcode_summary">Of scan de QR code op het aandeel receiver</string>
     <!-- MongoDB Settings -->
     <string name="pref_dialog_mongodb_uri">Voer MongoDB URI\"</string>
     <string name="pref_message_mongodb_uri">Vervang bijvoorbeeld waarden in {} \'s met uw juiste waarden</string>
