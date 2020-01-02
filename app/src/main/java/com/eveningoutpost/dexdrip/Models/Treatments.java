@@ -769,6 +769,7 @@ public class Treatments extends Model {
     // using the original calculation
     private static Pair<Double, Double> calculateLegacyIobActivityFromTreatmentAtTime(final Treatments treatment, final double time) {
  // GUBED Take this code and use it rather than the trapezoid.
+ // Better yet, use https://github.com/openaps/oref0/blob/master/lib/iob/calculate.js
 
         final double dia = Profile.insulinActionTime(time); // duration insulin action in hours
         final double peak = 75; // minutes in based on a 3 hour DIA - scaled proportionally (orig 75)
